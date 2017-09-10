@@ -31,23 +31,7 @@ function currentLine(line) {
   }
   return lineSentence
 }
-  return `Welcome ${name}, you are number ${line.length + 1} in line`
-}
 
-function nowServing(line) {
-  if (line === []) {
-    console.log("There is nobody here")
-    return "There is nobody waiting to be served."
-
-  }
-  else {
-    var serving = `Now serving ${line[0]}.`
-    line.shift()
-    return serving
-
-  }
-
-}
 
 takeANumber(katzDeli, 'Ada')
 takeANumber(katzDeli, 'Jon')
