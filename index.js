@@ -2,7 +2,6 @@ var katzDeli = []
 
 function takeANumber(line, name) {
   line.push(name)
-<<<<<<< HEAD
   return `Welcome, ${name}. You are number ${line.length} in line.`
 }
 
@@ -32,7 +31,6 @@ function currentLine(line) {
   }
   return lineSentence
 }
-=======
   return `Welcome ${name}, you are number ${line.length + 1} in line`
 }
 
@@ -51,17 +49,7 @@ function nowServing(line) {
 
 }
 
-function currentLine(katzline) {
-  if (line === []) {
-    return "The line is currently empty."
-  }
-  else {
-    for (var )
-  }
-}
-
 takeANumber(katzDeli, 'Ada')
 takeANumber(katzDeli, 'Jon')
 takeANumber(katzDeli, 'Joe')
 console.log(katzDeli)
->>>>>>> 5c24f2a54ce5058dce09605f79d0c9651b1c948a
