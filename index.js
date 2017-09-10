@@ -29,6 +29,7 @@ function currentLine(line) {
       }
     }
   }
+  console.log(linesentence)
   return lineSentence
 }
 
