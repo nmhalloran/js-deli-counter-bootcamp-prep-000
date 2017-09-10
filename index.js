@@ -37,4 +37,5 @@ function currentLine(line) {
 takeANumber(katzDeli, 'Ada')
 takeANumber(katzDeli, 'Jon')
 takeANumber(katzDeli, 'Joe')
+currentLine(katzDeli)
 console.log(katzDeli)
