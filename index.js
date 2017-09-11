@@ -22,10 +22,11 @@ function currentLine(line) {
   }
 
   const numbersAndNames = []
-  
+
   for (let i = 0, l = line.length; i < l; i++) {
     numbersAndNames.push(`${i + 1}. ${line[i]}`)
   }
+  console.log()
 
   return `The line is currently: ${numbersAndNames.join(', ')}`
 };
@@ -34,5 +35,5 @@ function currentLine(line) {
 takeANumber(katzDeli, 'Ada')
 takeANumber(katzDeli, 'Jon')
 takeANumber(katzDeli, 'Joe')
-currentLine(katzDeli)
+console.log(currentLine(katzDeli))
 console.log(katzDeli)
